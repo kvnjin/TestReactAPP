@@ -1,9 +1,9 @@
 import './App.css';
 import Title from './Title';
-import Counter from './Counter';
-import CounterContainer from './CounterContainer';
+import Counter from './components/Counter';
+import CounterContainer from './components/CounterContainer';
 import { useState } from 'react';
-import InputComponent from './InputComponent';
+import InputComponent from './components/InputComponent';
 
 function App() {
 

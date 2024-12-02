@@ -1,5 +1,5 @@
 import { useState } from "react"
-import styles from './css/Counter.module.css'
+import styles from './css/Counter.module.css' 
 
 function Counter({...props}){
 
