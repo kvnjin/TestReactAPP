@@ -1,4 +1,4 @@
-import styles from './css/InputComponent.module.css' 
+import styles from './InputComponent.module.css'
 
 function InputComponent({title, onChangeHandler}) {
     return (<>

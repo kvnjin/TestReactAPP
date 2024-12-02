@@ -1,9 +1,9 @@
 import './App.css';
 import Title from './Title';
-import Counter from './components/Counter';
-import CounterContainer from './components/CounterContainer';
+import Counter from './Counter';
+import CounterContainer from './CounterContainer';
 import { useState } from 'react';
-import InputComponent from './components/InputComponent';
+import InputComponent from './InputComponent';
 
 function App() {
 
@@ -44,6 +44,7 @@ function App() {
       <InputComponent title='Limite Value' onChangeHandler={setLimitValue}></InputComponent>
       <InputComponent title='Max Value' onChangeHandler={setMaxValue}></InputComponent>
       <InputComponent title='Min Value' onChangeHandler={setMinValue}></InputComponent>
+
       </div>
       <CounterContainer>
         <Counter {...countConstant}></Counter>
